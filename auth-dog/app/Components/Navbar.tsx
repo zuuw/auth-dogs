@@ -48,8 +48,8 @@ export default function Navbar() {
               </Link>
             ))}
 
-            <SignedOut><SignInButton className='text-gray-700 hover:text-blue-600 transition'/>
-                <SignUpButton className='text-gray-700 hover:text-blue-600 transition'  />
+            <SignedOut><SignInButton />
+                <SignUpButton />
             </SignedOut>
 
             {/* <Link href="/login">
